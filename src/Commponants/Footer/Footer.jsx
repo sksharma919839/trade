@@ -43,7 +43,7 @@ const contactItem = [
   },
   {
     id: 1,
-    link: "/",
+    link: "/trade",
     name: "support@safetradeworld.com",
   },
 ];
@@ -53,7 +53,7 @@ function Footer() {
       <div className="back-foot">
         <div className="lg:flex justify-evenly mb-[60px]">
           <div className="sm:w-[340px] mx-[20px] lg:px-0 sm:px-[20px] lg:mb-0 mb-[40px] h-[280px]">
-            <Link to="/">
+            <Link to="/trade">
               <img src={logo} className="mb-[30px]" alt="" />
             </Link>
             <p className="text-[#ffffffbf] mb-[30px] text-[16px]">
@@ -126,27 +126,27 @@ function Footer() {
             </h4>
             <div className="flex items-center justify-evenly ml-[15px]">
               <div className="w-[40px] mx-[10px] h-10 transition-all cursor-pointer duration-500 hover:bg-[#3B5998] hover:mt-[-15px] bg-[#1b192b] rounded-lg flex items-center justify-center">
-                <Link to="/" className=" text-[#ffffff]">
+                <Link to="/trade" className=" text-[#ffffff]">
                   <FaFacebookF />
                 </Link>
               </div>
               <div className="w-[40px] h-10 mx-[10px] transition-all cursor-pointer duration-500 hover:mt-[-15px] hover:bg-[#1DA1F2] bg-[#1b192b] rounded-lg flex items-center justify-center">
-                <Link to="/" className=" text-[#ffffff]">
+                <Link to="/trade" className=" text-[#ffffff]">
                   <FaTwitter />
                 </Link>
               </div>
               <div className="w-[40px] h-10 mx-[10px] transition-all cursor-pointer duration-500 hover:mt-[-15px] hover:bg-[#0A66C2] bg-[#1b192b] rounded-lg flex items-center justify-center">
-                <Link to="/" className=" text-[#ffffff]">
+                <Link to="/trade" className=" text-[#ffffff]">
                   <FaLinkedin />
                 </Link>
               </div>
               <div className="w-[40px] h-10 mx-[10px] transition-all cursor-pointer duration-500 hover:mt-[-15px] hover:bg-[#C32AA3] bg-[#1b192b] rounded-lg flex items-center justify-center">
-                <Link to="/" className=" text-[#ffffff]">
+                <Link to="/trade" className=" text-[#ffffff]">
                   <FaInstagram />
                 </Link>
               </div>
               <div className="w-[40px] h-10 mx-[10px] transition-all cursor-pointer duration-500 hover:mt-[-15px] hover:bg-[#F20000] bg-[#1b192b] rounded-lg flex items-center justify-center">
-                <Link to="/" className=" text-[#ffffff]">
+                <Link to="/trade" className=" text-[#ffffff]">
                   <FaYoutube />
                 </Link>
               </div>

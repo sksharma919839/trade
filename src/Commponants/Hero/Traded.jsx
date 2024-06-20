@@ -15,7 +15,7 @@ function Traded() {
           </p>
           <a
             className="flex  items-center justify-between bg-[#10aa38] text-[14px] py-[5px] px-[20px] rounded-3xl text-[#ffffff] "
-            href="/"
+            href="/traded"
           >
             Trade Now <IoIosArrowForward size={35} />
           </a>

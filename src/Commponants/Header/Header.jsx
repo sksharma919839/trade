@@ -11,32 +11,32 @@ function Header() {
         <div className="flex items-center justify-between h-[34px] w-[90%]">
           <div className="flex items-center justify-evenly text-[#ffffff]">
             <a
-              href="/"
+              href="/trade"
               className="border-r border-l border-[#ffffff77] py-[9px] px-[14px] text-1 "
             >
               <FaFacebookF />
             </a>
             <a
-              href="/"
+              href="/trade"
               className="border-r border-l border-[#ffffff77] py-[9px] px-[14px] text-1 "
             >
               <FaTwitter />
             </a>
             <a
-              href="/"
+              href="/trade"
               className="border-r border-l border-[#ffffff77] py-[9px] px-[14px] text-1 "
             >
               <FaLinkedinIn />
             </a>
             <a
-              href="/"
+              href="/trade"
               className="border-r border-l border-[#ffffff77] py-[9px] px-[14px]  text-1 "
             >
               <CiInstagram />
             </a>
           </div>
           <div>
-            <a className="text-[#fffffabf] text-[16px]" href="/">
+            <a className="text-[#fffffabf] text-[16px]" href="/trade">
               support@safetradeworld.com
             </a>
           </div>

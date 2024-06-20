@@ -20,7 +20,7 @@ function Market() {
           <div className="flex  items-center justify-center pb-[60px]">
             <div className="flex items-center h-[34px] rounded-3xl w-[200px] justify-center bg-[#010103] py-[5px] px-[15px]">
               <Link
-                to="/"
+                to="/trade"
                 className="text-[#ffffffbf] text-16px hover:text-[#4337c2] transition-all duration-500 mr-[5px]"
               >
                 Home
@@ -69,7 +69,7 @@ function Market() {
                 <p className="text-[15px] text-[#D1D1D4] text-center">
                   No results, Go to{" "}
                   <Link
-                    to="/"
+                    to="/signup"
                     className="hover:text-[#5345EE] transition-all duration-300 text-[#C349FF] border-b border-b-[#C349FF] hover:border-b-[#5345ee]"
                   >
                     Sign in

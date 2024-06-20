@@ -45,7 +45,7 @@ function About() {
           <div className="flex  items-center justify-center pb-[60px]">
             <div className="flex items-center h-[34px] rounded-3xl w-[200px] justify-center bg-[#010103] py-[5px] px-[15px]">
               <Link
-                to="/"
+                to="/trade"
                 className="text-[#ffffffbf] text-16px hover:text-[#4337c2] transition-all duration-500 mr-[5px]"
               >
                 Home

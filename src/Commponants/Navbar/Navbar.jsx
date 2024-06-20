@@ -13,7 +13,7 @@ function Nav() {
     {
       id: 0,
       name: "Home",
-      link: "/",
+      link: "/trade",
     },
     {
       id: 1,
@@ -23,7 +23,7 @@ function Nav() {
     {
       id: 2,
       name: "Trade",
-      link: "/trade",
+      link: "/traded",
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ function Nav() {
     {
       id: 0,
       name: "Home",
-      link: "/",
+      link: "/trade",
     },
     {
       id: 1,
@@ -45,7 +45,7 @@ function Nav() {
     {
       id: 2,
       name: "Trade",
-      link: "/trade",
+      link: "/traded",
     },
     {
       id: 3,
@@ -63,7 +63,7 @@ function Nav() {
       <nav className="fixed w-[100%] mt-[34px] bg-[#1d1a2e] ">
         <div className="w-[100%]  flex items-center lg:justify-around justify-between   border-y border-y-[#ffffff77] py-[10px] sm:px-[40px] ">
           <div>
-            <Link to="/">
+            <Link to="/trade">
               <img src={Logo} className="md:w-[130px] w-[100px]" alt="" />
             </Link>
           </div>
@@ -116,7 +116,7 @@ function Nav() {
               }
             >
               <div className="py-[20px] px-[10px] border-b border-b-[#ffffff77] flex items-center ">
-                <Link to="/">
+                <Link to="/trade">
                   <img src={Logo} className="w-[100px]" alt="" />
                 </Link>
               </div>

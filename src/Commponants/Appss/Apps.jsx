@@ -3,6 +3,7 @@ import appl from "../../Image/ll.png";
 import apple from "../../Image/Apple_logo_black.svg-removebg-preview.png";
 import googlePlay from "../../Image/play-store-removebg-preview.png";
 import qr from "../../Image/qr_code.png";
+import { Link } from "react-router-dom";
 
 function Apps() {
   return (
@@ -17,8 +18,8 @@ function Apps() {
               Scan to download, trade anytime and anywhere
             </p>
             <div className="md:flex  justify-evenly mt-[40px]">
-              <a
-                href="/"
+              <Link
+                to="/trade"
                 className=" w-[210px] rounded-lg mx-[20px] md:mb-0 mb-[20px] flex items-center px-[40px] bg-[#ffffff] py-[10px]"
               >
                 <img src={apple} className="w-[27px] h-[32px]" alt="" />
@@ -26,9 +27,9 @@ function Apps() {
                   <span className="text-[17.5px]">Download</span>{" "}
                   <b className="text-[20px]">App Store</b>
                 </h6>
-              </a>
-              <a
-                href="/"
+              </Link>
+              <Link
+                href="/trade"
                 className=" w-[210px] rounded-lg mx-[20px] flex items-center px-[40px] bg-[#ffffff] py-[10px]"
               >
                 <img src={googlePlay} className="w-[27px] w-[32px]" alt="" />
@@ -36,7 +37,7 @@ function Apps() {
                   <span className="text-[17.5px]">Download</span>{" "}
                   <b className="text-[20px]">Google Play</b>
                 </h6>
-              </a>
+              </Link>
               <div className="w-[109px] h-[120px] mx-[20px]  hidden rounded-lg cursor-pointer md:flex  items-center justify-center bg-[#ffffff]">
                 <img src={qr} className="h-[40px] w-[40px]" alt="" />
               </div>

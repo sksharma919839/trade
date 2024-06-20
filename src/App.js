@@ -17,7 +17,7 @@ import Privacypage from "./Page/Privacypage";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/trade",
       element: <Home />,
     },
     {
@@ -25,7 +25,7 @@ function App() {
       element: <Markett />,
     },
     {
-      path: "/trade",
+      path: "/traded",
       element: <Trade />,
     },
     {

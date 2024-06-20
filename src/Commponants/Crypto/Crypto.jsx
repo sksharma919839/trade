@@ -46,7 +46,7 @@ function Crypto() {
             Popular Crypto Currencies
           </h2>
           <Link
-            to="/"
+            to="/market"
             className="crypto-a  flex items-center  justify-center py-[7px] px-[15px] rounded-3xl"
           >
             <span className="text-[#ffffff]">View more markets</span>
