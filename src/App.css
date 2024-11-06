@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  background-color: #0e0c1c;
+  @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body::-webkit-scrollbar {
+  display: none;
+}
+/* About */
+
+.bg-about {
+  background-image: url(./Image/bgwave.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Crypto */
+
+.crypto-a {
+  background: linear-gradient(#5849ff 0%, #c349ff 100%);
+}
+.cry-mk {
+  background: linear-gradient(
+    to right,
+    #191530 0%,
+    #5849ff 51.87%,
+    #693298 100%
+  );
+}
+.cry-tr {
+  grid-template-columns: auto auto auto;
+  flex: none;
+}
+
+/* Review */
+
+.acc-q {
+  box-shadow: 0px 0px 38px 0px #211b46;
+}
+
+/* Footer */
+
+.back-foot {
+  background-image: url(./Image/pinkwavebg.svg);
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-bt {
+  background: linear-gradient(to right, #5849ff 0%, #c349ff 100%);
+}
+
+/* Market */
+
+.crypto-a {
+  background: linear-gradient(#5849ff 0%, #c349ff 100%);
+}
+.cry-mk {
+  background: linear-gradient(
+    to right,
+    #191530 0%,
+    #5849ff 51.87%,
+    #693298 100%
+  );
+}
+.cry-tr {
+  grid-template-columns: auto auto auto;
+  flex: none;
+}
+
+/* login */
+
+.contact-btn {
+  background: linear-gradient(to right, #5849ff 0%, #c349ff 100%);
+}
+
+/* Animations */
+
+.home-row {
+  -webkit-animation: vibrate 1s linear infinite both;
+  animation: vibrate 1s linear infinite both;
+}
+
+@-webkit-keyframes vibrate {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  40% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  60% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes vibrate {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
   }
-  to {
-    transform: rotate(360deg);
+  20% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  40% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  60% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
   }
 }
