@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/trade/static/css/main.283b22e1.css",
+    "main.js": "/trade/static/js/main.9b82b4ef.js",
+    "static/js/453.34521bd5.chunk.js": "/trade/static/js/453.34521bd5.chunk.js",
+    "static/media/leftservices.png": "/trade/static/media/leftservices.51cb55580829e60a99f1.png",
+    "static/media/topimg.png": "/trade/static/media/topimg.b3802af50cc96f71cb0d.png",
+    "static/media/ll.png": "/trade/static/media/ll.26fa767ee00ce31b9fbd.png",
+    "static/media/loginleft.png": "/trade/static/media/loginleft.a7afaaedc669b31495d3.png",
+    "static/media/secuirty.png": "/trade/static/media/secuirty.12d632cec9f662aeb224.png",
+    "static/media/aboutright.png": "/trade/static/media/aboutright.f921e963dd2b892159ef.png",
+    "static/media/app-store-removebg-preview.png": "/trade/static/media/app-store-removebg-preview.6b8871a451bf0e3155ed.png",
+    "static/media/playstore-removebg-preview-removebg-preview.png": "/trade/static/media/playstore-removebg-preview-removebg-preview.90c44d10f341e8170b18.png",
+    "static/media/Apple_logo_black.svg-removebg-preview.png": "/trade/static/media/Apple_logo_black.svg-removebg-preview.ec9aee496f7de7451b47.png",
+    "static/media/chek-removebg-preview.png": "/trade/static/media/chek-removebg-preview.3290ad409cc231772519.png",
+    "static/media/images-removebg-preview.png": "/trade/static/media/images-removebg-preview.225bf12eff90147ef888.png",
+    "static/media/404-error.jpg": "/trade/static/media/404-error.06518b5d6615fa514994.jpg",
+    "static/media/logo.png": "/trade/static/media/logo.dd343477b6df149325de.png",
+    "static/media/cashleft.png": "/trade/static/media/cashleft.1bd7be0759f9325d0d86.png",
+    "static/media/play-store-removebg-preview.png": "/trade/static/media/play-store-removebg-preview.1abbe844881d40751878.png",
+    "static/media/ii.png": "/trade/static/media/ii.079823e63f616fd39059.png",
+    "static/media/pinkwavebg.svg": "/trade/static/media/pinkwavebg.3399e85a75f0773b48e4.svg",
+    "static/media/bgwave.svg": "/trade/static/media/bgwave.67b3d35d5e2a11f5069b.svg",
+    "static/media/slick.svg": "/trade/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/trade/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/trade/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/trade/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/trade/index.html",
+    "main.283b22e1.css.map": "/trade/static/css/main.283b22e1.css.map",
+    "main.9b82b4ef.js.map": "/trade/static/js/main.9b82b4ef.js.map",
+    "453.34521bd5.chunk.js.map": "/trade/static/js/453.34521bd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.283b22e1.css",
+    "static/js/main.9b82b4ef.js"
+  ]
+}
